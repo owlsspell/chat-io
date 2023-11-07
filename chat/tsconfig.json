@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    // "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "esModuleInterop": true,
+    // "module": "es2020",
+    "module": "ESNext", // "module": "CommonJS" should work too
+    "moduleResolution": "Node",
+    "rootDir": ".", // Location of TypeScript files
+    "outDir": "dist", // Location of compiled JavaScript files
+    "sourceMap": true, // Generate sourcemaps
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+    // "skipLibCheck": true /* Skip type checking of declaration files. */,
+    // "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+    // "esModuleInterop": true,
+    // "moduleResolution": "node",
+    // "target": "es2015" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
+    // "module": "commonjs"
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "include": ["*.ts", "/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+// {
+//   "compilerOptions": {
+//     "lib": ["es2023"],
+//     "module": "node16",
+//     "target": "es2022",
+//     "allowJs": true,
+//     "outDir": "dist",
+//     // "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "moduleResolution": "node16"
+//   },
+//   "include": ["*", "src/**/*"],
+//   "exclude": ["node_modules"]
+// }
